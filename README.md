@@ -22,12 +22,12 @@ After launching the readFromExcel.py script, a window pops up and the user can s
 What the script then does is look through the excel sheet which holds all the information on fired managers for every entry which matches the given parameters.
 It then counts the total number of fired managers, and stores the placing, season, points, club and the matchday of the firing in an array. Next, using this data and applying it to a different excel sheet which holds the complete information of every bundesliga season, it looks at how each stored club finished its given saison, and compares the total number of points from all those clubs with the total number of points they ended the season with (it does the same for the clubs respective placings)
 
-the calculation being done at this point is a simple: 
+The calculation being done at this point is a simple: 
 
 Points per game:
 total number of points at the end of the season - total number of points at moment of firing / number of firings
 
-as well as:
+As well as:
 
 Average Placing:
 total league table placings at the end of the season - total league table placings at moment of firing / number of firings
