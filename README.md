@@ -1,5 +1,5 @@
 # TrainerEffekt
-Tracking and calculating the effect(pertaining to final placement and points per game) that managerial firings during the saison had on football clubs performance
+Tracking and calculating the effect (pertaining to final placement and points per game) that managerial firings during the saison had on football clubs performance
 
 ## tldr:
 
