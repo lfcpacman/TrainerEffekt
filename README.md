@@ -32,7 +32,7 @@ As well as:
 Average Placing:
 total league table placings at the end of the season - total league table placings at moment of firing / number of firings
 
-Next, using the values we stored in the array, the script goes through an excel sheet which has every league table entry from every bundesliga season EXCEPT from clubs which fired their manager that season, and finds clubs that where in similar situations during different season. For example, if a manager was fired on matchday 20 while his team was placing fifteenth in 2011, we would store all clubs that were placing fifteenth on matchday 20 in different seasons, so long as those clubs did not also fire their manager at some point during the season.
+Next, using the values stored in the array, the script goes through an excel sheet which has every league table entry from every bundesliga season EXCEPT from clubs which fired their manager that season, and finds clubs that where in similar situations during different season. For example, if a manager was fired on matchday 20 while his team was placing fifteenth in 2011, the script would store all clubs that were placing fifteenth on matchday 20 in different seasons, so long as those clubs did not also fire their manager at some point during the season.
 From here on out its the same procedure as above: count every entry we find and calculate the average point per game as well as average placings.
 
 It should be noted at this point that before the season of 1995/1996, a win would only grant the winning team 2 points. I've remedied this by translating the points that each team had at any given point into the equivalent of points it would have under the 3-point system used nowadays.
